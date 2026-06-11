@@ -115,7 +115,7 @@ class A3Client:
                 redirect_uri=redirect_uri,
                 code_verifier=code_verifier,
                 state=state,
-                ear_token=ear_token,
+                attestation_result=ear_token,
                 attestation_profile=at_profile,
             )
             return token
